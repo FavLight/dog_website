@@ -1,0 +1,204 @@
+body {
+    font-family: Montserrat;
+
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* title-image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 15%;
+}
+
+/* features */
+
+#features {
+    padding: 7% 15%;
+}
+
+.fea {
+    padding: 2rem;
+}
+
+
+
+.head {
+    font-size: 1.6rem;
+    font-family: Montserrat-bold;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para {
+    color: #8f8f8f;
+    text-align: center;
+}
+
+
+
+
+.icon {
+    margin-bottom: 1rem;
+    position: relative;
+    left: 40%;
+    
+}
+
+.icon:hover {
+    color: #ff4c68;     
+}     
+
+
+h1 {
+    font-family: Montserrat-black, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+
+/* navbar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand {
+    font-family: Ubuntu, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-light;
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.apple-icon {
+    padding-bottom: 5px;
+}
+
+.googleplay-icon {
+    padding-bottom: 2px;
+}
+
+
+
+/* testimonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+
+/* press section*/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* cta */
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-item {
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+/* footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.fotter-icon {
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
